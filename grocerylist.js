@@ -14,6 +14,9 @@ var myList = [{
 	item: "Bananas ",
 	price: .99,
 }]
+var total = 0
 myList.forEach (function(list){
 	console.log(list.item + "= $" + list.price);
+	total += list.price;
 })
+console.log("Total =" + total)
