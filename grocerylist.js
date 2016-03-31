@@ -15,5 +15,5 @@ var myList = [{
 	price: .99,
 }]
 myList.forEach (function(list){
-	console.log();
+	console.log(list.item + "= $" + list.price);
 })
